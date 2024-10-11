@@ -1,0 +1,4 @@
+-  I ran pip freeze > requirements.txt so someone else can see what libraries and applications I used for this project
+-  To put it simply I ran the following in terminal in VS code:
+    #pip install openai
+    #pip install Flask

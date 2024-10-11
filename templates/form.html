@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'style.css')}}">
+    <title>Teams Chat Aid</title>
+</head>
+<body>
+    <h1>Let's collect some Info!</h1>
+    <form action="/submit" method="post">
+        <label for="input1">Who is this for?:</label>
+        <input type="text" id="recipient" name="recipient" required>
+        <br>
+        <label for="input2">What's the message?:</label>
+        <input type="text" id="chat" name="chat" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    {% if response %}
+         <h1>How does this sound?</h1>
+         <p>{{ response }}</p>
+    {% endif %}
+</body>
+</html>
+

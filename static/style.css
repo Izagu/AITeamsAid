@@ -1,0 +1,68 @@
+
+body {
+    height: 100vh;
+    background-color: #f5f5dc; /* Beige background */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add some space below the heading */
+    color: #4b5320;
+    background-color: #f5f5dc; /* Beige background */
+    font-family: Arial, sans-serif;
+}
+ p{
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #e0e0d1;
+ }
+
+form {
+
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #e0e0d1; /* Light brown form background */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #4b5320; /* Dark green text */
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #4b5320; /* Dark green border */
+    border-radius: 100px; /* Bubble input */
+    background-color: #d0f0c0; /* Light green background */
+    color: #4b5320; /* Dark green text */
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4b5320; /* Dark green button */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b4220; /* Darker green on hover */
+}
+
