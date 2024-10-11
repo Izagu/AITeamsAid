@@ -2,3 +2,4 @@
 -  To put it simply I ran the following in terminal in VS code:
     #pip install openai
     #pip install Flask
+    #API key was set to enviornment using the command setx OPENAI_API_KEY "your_api_key" in the terminal (powershell)

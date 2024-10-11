@@ -1,4 +1,4 @@
-#API key was set to enviornment using the command setx OPENAI_API_KEY "my_api_key" in the terminal (powershell)
+
 from openai import OpenAI
 
 client = OpenAI()
